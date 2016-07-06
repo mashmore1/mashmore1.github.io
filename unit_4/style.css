@@ -1,0 +1,44 @@
+<style>
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+</style>
+<style>
+@import 'https://fonts.googleapis.com/css?family=David+Libre';
+</style>
+
+
+*{padding:0;
+	margin:0;
+	}
+
+header{color:#0063B2;
+	background-color:#FFBA51;
+padding:20px;
+font-family: 'Montserrat', sans-serif;}
+
+nav a{color:#000000;
+font-style: italic;
+margin-right: 10px}
+
+img{width: 100%}
+
+body {color:#1999FF;
+background-color: #FFBA51;
+font-family: 'David Libre', serif;
+font-size:20px;
+line-height: 1.3}
+
+a{color:inherit;
+text-decoration:none;}
+
+main{padding:20px;}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding:20px;
+}
+
+footer{text-align:center;
+padding:20px;}
+
+#slogan {font-style: italic;}
