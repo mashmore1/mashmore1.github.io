@@ -1,0 +1,126 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=David+Libre';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-decoration-color: #000;
+	font-family: 'David Libre', serif;
+	font-size: 20px;
+	line-height: 1.5;
+	background-color: #FFBA51;
+}
+
+h1, h2, h3{
+	font-weight: 300;
+	text-decoration-color: #000;
+	padding:10px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+nav a{
+	color:#000000;
+	font-style: italic;
+	margin:10px;
+	text-decoration:none;
+}
+
+a{
+	color:#FFFFFF;
+	font-style: italic;
+	margin:10px;
+	text-decoration:none;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+	text-align: center;
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+nav a {
+	color: #ffffff;
+	display: block;
+	width: 180px;
+	float: left;
+	padding: 10px 0;
+}
+
+nav a:hover {
+	background-color: #FFBA51;
+}
+
+
+article {
+	width: 680px;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+	}
+
+aside {
+	float: right;
+	width: 320px;
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+ul {
+	font-family: 'David Libre', serif;
+	font-size:20px;
+	line-height: 1.3;
+    text-align: center;
+    list-style-type: none;
+    padding:10px;
+}
+
+footer{
+	clear: both;
+	text-align:center;
+	text-decoration-color: #FFFFFF;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#slogan {
+	font-style: italic;
+	text-align: center;
+}
+
+/*#dog_park {
+	background-image: url(../images/BearLB.jpg);
+	background-size:contain;
+	width:100%;
+	height:600px;
+}*/
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
+
+#wrapper {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
